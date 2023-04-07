@@ -29,7 +29,7 @@ class Field(ABC):
 
     @abstractmethod
     def __getitem__(self):
-        pass
+        raise NotImplementedError
 
 
 class Name(Field):
